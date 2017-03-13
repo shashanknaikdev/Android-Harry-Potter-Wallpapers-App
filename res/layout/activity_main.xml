@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+     >
+     <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1505f56496d241"
+        ads:loadAdOnCreate="true"
+        ads:refreshInterval="60"
+         
+         />
+    
+<Gallery
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77000000"
+        android:spacing="20dip" />
+        
+      <ImageView
+          android:id="@+id/ImageView01"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          
+           >
+
+</ImageView>
+    
+    
+    
+  
+</LinearLayout>

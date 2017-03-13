@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Harry Potter Wallpaper App</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Harry Potter Wallpapers</string>
+      <string name="dialog_text">Hey fellow wizard! Hope this app is as fun as I intended it for all the Harry Potter Fans out there. This is one of my first apps.\nI am a budding young developer from India fascinated by the android world. The reason I started coding for android was out of sheer love and passion for android and all that it stood for.\nI hope to buy a good phone/tablet so that I can test my apps and develop better.\nIm broke,so donate as it would be a real encouragement for me to develop better apps and make you guys happier!\n <b>Note:</b> Donating will not add any functionality to this app, please do it only if you liked this app and are willing to help me out :)</string>
+
+</resources>

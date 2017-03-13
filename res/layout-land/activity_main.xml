@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black"
+    android:orientation="horizontal" 
+    >
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/adView"
+        android:layout_centerHorizontal="true"
+         >
+
+    </ImageView>
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1505f56496d241"
+        ads:loadAdOnCreate="true"
+        ads:refreshInterval="60"
+        >
+    </com.google.ads.AdView>
+
+</RelativeLayout>

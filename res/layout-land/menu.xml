@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+ 
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_menu_save"
+          android:title="Save to SDcard" />
+    <item android:id="@+id/menu_set_wallpapaer"
+          android:icon="@drawable/ic_menu_set_as"
+          android:title="Set Wallpaper" />
+    <item android:id="@+id/menu_help"
+          android:icon="@drawable/ic_menu_help"
+          android:title="About/Donate" />
+</menu>
